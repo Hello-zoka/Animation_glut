@@ -33,4 +33,4 @@ endif ()
 
 add_compile_options("-Wno-deprecated-declarations")
 
-add_executable(T43ANIM T43ANIM.cpp)
+add_executable(T43ANIM Animation_main.cpp)

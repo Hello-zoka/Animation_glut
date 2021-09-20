@@ -8,7 +8,7 @@
 int main() {
     std::cout
             << "Hello!\nThis if very useful glut implementation of drawing objects, which can be used in many different tasks.\n"
-               "For example, you can find here two projects:\n"
+               "For example, you can find there two projects:\n"
                "1) Table with the recoloring ball(press wasd-buttons to move)\n"
                "2) A lot of random glut-objects\n"
                "You can press 'f'-button for full-screen mod, 'p'-button to pause, esc - to exit\n"
