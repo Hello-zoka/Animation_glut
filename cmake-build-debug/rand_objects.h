@@ -10,7 +10,7 @@
 #define __BALL_H_
 
 namespace zygl {
-    class ball : public object {
+    class rand_objects : public object {
     private:
         double r, g, b; // color of object
         double x, y, z; // coordinates of object
@@ -26,8 +26,8 @@ namespace zygl {
         }
 
     public:
-        ball() : r(r0()), g(r0()), b(r0()), x(r0() * 5), y(0), z(r0() * 5), vel(3.0 * r0()),
-                 type(r1()) { // random initialization
+        rand_objects() : r(r0()), g(r0()), b(r0()), x(r0() * 5), y(0), z(r0() * 5), vel(3.0 * r0()),
+                         type(r1()) { // random initialization
         }
 
         void Draw(anim *Ani) { // Drawing object

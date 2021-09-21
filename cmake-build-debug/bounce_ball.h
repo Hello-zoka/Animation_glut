@@ -12,10 +12,10 @@ std::mt19937 rnd(std::chrono::steady_clock::now().time_since_epoch().count()); /
 
 
 namespace zygl {
-    class checker : public object {
+    class bounce_ball : public object {
     private:
         static const int W_Size = 10, H_Size = 10;
-        const double EPS = 0.03;
+        const double EPS = 0.04;
 
         static double r0() { // random double in range [0,1]
             return rnd() / (double) RAND_MAX;
@@ -32,7 +32,7 @@ namespace zygl {
         }
 
     public:
-        checker() { // initialization colors of white/grey chess table
+        bounce_ball() { // initialization colors of white/grey chess table
             for (int i = 0; i < W_Size; i++) {
                 for (int j = 0; j < H_Size; j++) {
                     if ((i ^ j) & 1) {
