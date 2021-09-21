@@ -11,6 +11,7 @@ Users can press do this standard actions:
 To show basics abilities of this code you can see these two projects:
 1) A ball that hits the chessboard and repaints its cells in different colors.
 You can move the ball, using `wasd` buttons
-[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1632173188/video_to_markdown/images/google-drive--1jdCZwY5I_lTSH1cmJMuMJaPR8YXPindv-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1jdCZwY5I_lTSH1cmJMuMJaPR8YXPindv/view?usp=sharing "")
-2) Lots of objects that randomly rotating
-[![](https://res.cloudinary.com/marcomontalbano/image/upload/v1632173137/video_to_markdown/images/google-drive--1l-3qjVImyA-T3q1tJoY3vneu5eAdBIif-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://drive.google.com/file/d/1l-3qjVImyA-T3q1tJoY3vneu5eAdBIif/view?usp=sharing "")
+![output](https://user-images.githubusercontent.com/77232884/134186998-7f4d9c43-93c7-42b5-81a7-35c50a11ed25.gif)
+
+2) Lots of objects that randomly rotating(gif quality has been reduced)
+  ![output3](https://user-images.githubusercontent.com/77232884/134187771-e4c92dc1-4115-4c1a-bdf8-5811da4a8b39.gif)
